@@ -3,7 +3,7 @@ This Keypoint Vision Matcher is an advanced computer vision project designed to 
 
 The core features of this project include:
 
-1. Keypoint Detection and Description: Extracts unique keypoints and descriptors from each image using SIFT.
+1. Keypoint Detection and Description: Extracts unique keypoints and descriptors from each image using detection algorithm that i made which is inspired by SIFT.
 2. Feature Matching: Matches query image features with those in the dataset using BFMatcher and Lowe's ratio test to filter the best matches.
 3. Homography Estimation: Determines the geometric relationship between images, enabling the project to accurately overlay and align images.
 4. Visualization: Draws and visualizes the matching keypoints between the query and the best-matching dataset image for a clear understanding of image similarity.
